@@ -1,0 +1,5 @@
+firmware-pi-rp2040/
+pico-examples/
+pico-sdk/
+pico-tflmicro/
+pico_sdk_import.cmake
