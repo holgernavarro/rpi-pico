@@ -1515,7 +1515,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : " /Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/cmsis /Users/holgernavarroherrera/pico/pico-sdk/src/rp2040/hardware_regs /Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/cmsis /Users/holgernavarroherrera/pico/pico-sdk/src/rp2040/hardware_regs"
+			"value" : " /Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/cmsis /Users/holgernavarroherrera/pico/pico-sdk/src/rp2040/hardware_regs /Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/cmsis /Users/holgernavarroherrera/pico/pico-sdk/src/rp2040/hardware_regs /Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/cmsis /Users/holgernavarroherrera/pico/pico-sdk/src/rp2040/hardware_regs"
 		},
 		{
 			"name" : "PICO_DOXYGEN_PATHS",

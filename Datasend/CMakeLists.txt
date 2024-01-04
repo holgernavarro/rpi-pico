@@ -16,4 +16,4 @@ pico_enable_stdio_uart(datasend 1)#②
 #---------------------------------------------
 pico_add_extra_outputs(datasend)
 #---------------------------------------------
-target_link_libraries(datasend pico_stdlib hardware_adc)
+target_link_libraries(datasend pico_stdlib hardware_adc)  
