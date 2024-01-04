@@ -1052,6 +1052,20 @@ CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/h
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c -o CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 
+CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: CMakeFiles/MPU6050.dir/flags.make
+CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
+CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: CMakeFiles/MPU6050.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/holgernavarroherrera/pico/MPU6050/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -MF CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj.d -o CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -c /Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
+
+CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c > CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+
+CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c -o CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+
 # Object files for target MPU6050
 MPU6050_OBJECTS = \
 "CMakeFiles/MPU6050.dir/src/main.c.obj" \
@@ -1124,7 +1138,8 @@ MPU6050_OBJECTS = \
 "CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj" \
 "CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj" \
 "CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj" \
-"CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
+"CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj" \
+"CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
 
 # External object files for target MPU6050
 MPU6050_EXTERNAL_OBJECTS =
@@ -1200,10 +1215,11 @@ MPU6050.elf: CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/lib
 MPU6050.elf: CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 MPU6050.elf: CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 MPU6050.elf: CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+MPU6050.elf: CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 MPU6050.elf: CMakeFiles/MPU6050.dir/build.make
 MPU6050.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 MPU6050.elf: CMakeFiles/MPU6050.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/holgernavarroherrera/pico/MPU6050/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Linking CXX executable MPU6050.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/holgernavarroherrera/pico/MPU6050/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Linking CXX executable MPU6050.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MPU6050.dir/link.txt --verbose=$(VERBOSE)
 	/opt/homebrew/bin/arm-none-eabi-objcopy -Oihex /Users/holgernavarroherrera/pico/MPU6050/build/MPU6050.elf MPU6050.hex
 	/opt/homebrew/bin/arm-none-eabi-objcopy -Obinary /Users/holgernavarroherrera/pico/MPU6050/build/MPU6050.elf MPU6050.bin

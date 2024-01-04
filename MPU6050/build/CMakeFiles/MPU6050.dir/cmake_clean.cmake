@@ -53,6 +53,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/common/pico_util/pheap.c.obj.d"
   "CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/common/pico_util/queue.c.obj"
   "CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/common/pico_util/queue.c.obj.d"
+  "CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
+  "CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj.d"
   "CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
   "CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d"
   "CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"

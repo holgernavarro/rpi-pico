@@ -116,6 +116,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/Users/holgernavarroherrera/pico/pico-sdk/lib/tinyusb/hw"
   "/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
   "/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_i2c/include"
+  "/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/include"
   )
 
 # The set of dependency files which are needed:
@@ -147,6 +148,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/holgernavarroherrera/pico/pico-sdk/src/common/pico_util/datetime.c" "CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/common/pico_util/datetime.c.obj" "gcc" "CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/common/pico_util/datetime.c.obj.d"
   "/Users/holgernavarroherrera/pico/pico-sdk/src/common/pico_util/pheap.c" "CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/common/pico_util/pheap.c.obj" "gcc" "CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/common/pico_util/pheap.c.obj.d"
   "/Users/holgernavarroherrera/pico/pico-sdk/src/common/pico_util/queue.c" "CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/common/pico_util/queue.c.obj" "gcc" "CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/common/pico_util/queue.c.obj.d"
+  "/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c" "CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj" "gcc" "CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj.d"
   "/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c" "CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" "gcc" "CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d"
   "/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c" "CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" "gcc" "CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d"
   "/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c" "CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" "gcc" "CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d"

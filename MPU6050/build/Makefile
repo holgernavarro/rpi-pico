@@ -855,6 +855,30 @@ Users/holgernavarroherrera/pico/pico-sdk/src/common/pico_util/queue.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MPU6050.dir/build.make CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : Users/holgernavarroherrera/pico/pico-sdk/src/common/pico_util/queue.c.s
 
+Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.obj: Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+.PHONY : Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.obj
+
+# target to build an object file
+Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MPU6050.dir/build.make CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+.PHONY : Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+
+Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.i: Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+.PHONY : Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.i
+
+# target to preprocess a source file
+Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MPU6050.dir/build.make CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+.PHONY : Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+
+Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.s: Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+.PHONY : Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.s
+
+# target to generate assembly for a file
+Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MPU6050.dir/build.make CMakeFiles/MPU6050.dir/Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+.PHONY : Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+
 Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj: Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 .PHONY : Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj
 
@@ -1831,6 +1855,9 @@ help:
 	@echo "... Users/holgernavarroherrera/pico/pico-sdk/src/common/pico_util/queue.obj"
 	@echo "... Users/holgernavarroherrera/pico/pico-sdk/src/common/pico_util/queue.i"
 	@echo "... Users/holgernavarroherrera/pico/pico-sdk/src/common/pico_util/queue.s"
+	@echo "... Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.obj"
+	@echo "... Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.i"
+	@echo "... Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_adc/adc.s"
 	@echo "... Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj"
 	@echo "... Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i"
 	@echo "... Users/holgernavarroherrera/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s"

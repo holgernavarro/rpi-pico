@@ -24,4 +24,4 @@ pico_enable_stdio_uart(MPU6050 0)
 pico_add_extra_outputs(MPU6050)
 
 #7. add target libraries
-target_link_libraries(MPU6050 pico_stdlib hardware_gpio hardware_i2c)
+target_link_libraries(MPU6050 pico_stdlib hardware_gpio hardware_i2c hardware_adc)
